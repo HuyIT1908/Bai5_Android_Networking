@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:inputType="text"
+            android:textSize="24dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/edt_pid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập id" />
+
+        <EditText
+            android:inputType="text"
+            android:textSize="24dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập name" />
+
+        <EditText
+            android:inputType="number"
+            android:textSize="24dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/edt_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập pricec" />
+
+        <EditText
+            android:inputType="text"
+            android:textSize="24dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/edt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập description" />
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btn_get_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Get data" />
+
+        <Button
+            android:id="@+id/btn_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Get data JSON" />
+
+        <Button
+            android:id="@+id/btn_Insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Insert data" />
+
+        <Button
+            android:id="@+id/btn_Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Update data" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Delete data" />
+
+        <TextView
+            android:textSize="26dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:id="@+id/tv_kq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
